@@ -1,0 +1,44 @@
+img{
+    width: 20%;
+    height: 6%;
+}
+    
+h1{
+    text-align:center;
+    font-size: 50px;
+}
+    
+table{
+    width: 400px;
+}
+th,caption {
+    text-align: left;
+}
+table, th, td {
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+tr:nth-child(even) {
+    background-color:  #fff;
+}
+    
+tr:nth-child(odd) {
+    background-color:  #ddd;
+}
+
+a:link {
+    color: purple;
+    text-decoration: none;
+}
+
+/* Makes all visited links gray and with a line through */
+a:visited {
+    color: gray;
+    text-decoration: line-through;
+}
+
+/* Makes links purple and bold when hovered over */
+a:hover {
+    color: purple;
+    font-weight: bold;
+}
