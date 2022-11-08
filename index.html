@@ -1,65 +1,95 @@
-<!DOCTYPE html>
-<html>
-    <head>
-	    <meta charset="utf-8">
-        <link rel="stylesheet" href="style.css"/>
-	    <title>My First Website</title>
-    </head>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+   <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:800px)" href="tablet.css">
+    <link rel="stylesheet" media="screen and (max-width:530px)"href="phone.css">
+  </head>
+<body>
+     <nav class="navbar">
+
+
+        <ul>
+             <li><a href="#home">Home</a></li>
+             <li><a href="#about">About Me</a></li>
+             <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact me">Contact Me</a></li>
+ </ul>
+     
+  </nav>
+
+  <!--  HOME PAGE SECTION-->
+
+  <section id="home">
+     <div class="main">
+        <h1>Hello, I'm Saviour <span>Imode</span></h1>
+        <p>Business Intelligence Developer
+
+        </p>
+       <p><a href="https://1drv.ms/b/s!AsPmvAbU6Ylmj3cTQ2-2e11HltL3?e=lH1cAL">DOWNLOAD CV</a></p>
+        
+        <!--<button class="btn">
+            Hire me
+
+        </button>--->
+     </div>
+  </section>
+  
+  <!-- ABOUT ME -->
+  <section id="about">
+   <h1 class="headings">ABOUT ME</h1>
+     <div id="pic">
+        <img src="./image/Background.jpg" alt="">
+         <div id="intro">
+             <h2>SAVIOUR IMODE</h2>
+             <p>I graduated from Caritas University, where I studied Psychology with a major in developmental psychology and a minor in psychology Statistic. 
+                After that, I first got into the industry working as a Customer Service Representative at Menzies Aviation. There I provided accurate, 
+                valid and complete information by using the right methods/tools, helped in managing schedules, maintained the digital filing system, 
+                handle customer complaints and provided appropriate solutions and alternatives within the time limits; follow up to ensure resolution.<br>
+                  After that, I am currently working as a Senior Business Intelligence Developer for Cygnet Healthcare
+                   which I help in debugging and troubleshooting of existing reports, Work with other members of the Analytics team to identify
+                    and deliver reporting solutions to address business challenges and Document detailed business requirements including data, security, 
+                    Dashboards, Visual Insight and Self-Service reporting requirements.<br> I really enjoy building and creating insight in report form for my organisation,
+                     mostly especially using the power BI tool. 
+                </p>
+         </div>
+
+   </div>
+
+
+  </section>
+
+  <!---PORTFOLIO-->
+  <section id="portfolio">
+    <h1 class="headings">PORTFOLIO</h1>
+    <div class="gallery">
+      <img src="./image/PowerBi image.jpg" alt="">
+      <img src="./image/SQL Image.jpg" alt="">
+      <img src="./image/SQL Image1.jpg" alt="">
+      <img src="./image/SSRS Image.jpg" alt="">
+      <img src="./image/SQL Image.jpg" alt="">
+      <img src="./image/SSRS Image.jpg" alt="">
+    </div>
+
+    <section id="Services">
+
+    </section>
     
-      <!--how to out your header to align in the centre-->
-    <body>
-        <a href="Link.html">linkpage</a>
-        <h1>My name is Saviour</h1>
-      <!-- <p>I love having hardworking people around me</p>--> 
-        <p>Living Life Believing</p>
-<!--  <ul>
-    Unordered List
-  <li>Pizza</li>
-  <li>Bread</li>
-  <li>Crisps</li>
-</ul>
-<p>The steps to follow to make toast are:</p>
-<ol>
-    ordered List
-  <li>Get 2 slices of bread</li>
-  <li>Put the bread in the toaster</li>
-  <li>Press the toaster down</li>
-</ol>
--->
-  <h2>Lets learn more about me</h2>
-  <p>My Hobbies</p>
-<ul>
-    <li>I Like to pick up task that are changeling</li>
-    <li>I like listening to great ideals people are ready to share</li>
-    <li>I don't like noisy environment</li>
-    <li>Love spending time with my family</li>
-</ul>
-<h3>Top 3 ways about how I approach Life</h3>
-<ol>
-    <li>I put God First in every step i take</li>
-    <li>I honestly believe that every little hard work will eventually pay off</li>
-    <li>Fear not, just be bold </li>
-</ol>
-<img src="img/Blackgirl.jpg" alt="my Black girl">
-<table>
-    <table>
-       <caption>Names of black girls</caption> 
-        <tr>
-          <th>First name</th>
-          <th>Last name</th>
-          <th>Age</th>
-        </tr>
-        <tr>
-          <td>Saviour</td>
-          <td>Imode</td>
-          <td>6years</td>
-        </tr>
-        <tr>
-          <td>Faith</td>
-          <td>Iwu</td>
-          <td>10years</td>
-        </tr>
-      </table>
-</table>
-    </body>
-</html>
+    <section id="contactt">
+        <h1 class="headings">CONTACT</h1>
+        <form action="" class="form">
+           <input type="text" name="name" class="input" placeholder="Enter Your Name">
+           <input type="email" name="email" class="input" placeholder="Enter Your Email">
+           <taxtarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Your Massage"></taxtarea>
+           <input type="submit" value="SEND" id="send">
+        </form>
+    </section>
+         
+
+  
+ 
+</body>
+</html> 
